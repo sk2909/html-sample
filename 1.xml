@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
+<!DOCTYPE bookDetails[
+<!ELEMENT bookDetails (title, author, edition, price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookDetails>
+<title>The Hobbit</title>
+<author>J.R.R. Tolkien</author>
+<edition>3rd</edition>
+<price>$19.99</price>
+</bookDetails>
